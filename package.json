@@ -1,0 +1,22 @@
+{
+  "name": "my_n-blog",
+  "version": "1.0.0",
+  "description": "A blog program by nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenzhongxu/My_N-Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenzhongxu/My_N-Blog/issues"
+  },
+  "homepage": "https://github.com/wenzhongxu/My_N-Blog#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
