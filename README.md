@@ -1,5 +1,7 @@
 # My_N-Blog
 A blog program by nodejs
+参照 https://github.com/nswbmw/N-blog 学习编写
+个人学习所用
 
 对应文件夹和文件的用处：
     1、models: 存放操作数据库的文件
