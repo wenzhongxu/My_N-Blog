@@ -32,6 +32,12 @@ app.use(session({
 
 app.use(flash()); //flash 中间件，用来显示通知
 
+//处理表单及文件上传的中间件
+app.use(require('express-formidable')({
+	uploadDir: path.join(__dirname,'public/img'),//文件上传目录
+	keepExtensions: true //保留后缀
+}));
+
 //设置模板全局常量
 app.locals.blog = {
 	title:pkg.name,
