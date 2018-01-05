@@ -17,7 +17,7 @@ router.post('/',checkNotLogin,function(req,res,next){
 	const name = req.fields.name;
 	const gender = req.fields.gender;
 	const bio = req.fields.bio;
-	const avatar = req.fields.avatar.path.split(path.sep).pop();
+	const avatar = req.files.avatar.path.split(path.sep).pop();
 	let password = req.fields.password;
 	const repassword = req.fields.repassword;
 
